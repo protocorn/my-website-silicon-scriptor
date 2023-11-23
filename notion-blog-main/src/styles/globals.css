@@ -29,3 +29,20 @@ div,
 button {
   -webkit-tap-highlight-color: transparent;
 }
+
+/* styles.css or app.css */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 10s linear infinite;
+}
+
+

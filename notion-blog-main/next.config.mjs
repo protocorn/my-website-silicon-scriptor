@@ -7,6 +7,7 @@ const nextConfig = {
   },
 
   images: {
+    domains: ['images.unsplash.com', 'www.notion.so', 's3-us-west-2.amazonaws.com', 'file.notion.so'],
     remotePatterns: [
       {
         protocol: 'https',
@@ -16,6 +17,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 's3-us-west-2.amazonaws.com',
       },
+      {
+        protocol:'https',
+        hostname:'file.notion.so'
+      }
     ],
   },
 
