@@ -25,7 +25,7 @@ export default async function BlogPage() {
       <>
         <section className="mb-16 mt-0 space-y-8 md:mt-20">
           <SearchBar />
-          <CategoryFilter allCategories={allCategories} />
+            <CategoryFilter allCategories={allCategories} />
         </section>
         <PostsGrid allPosts={allPosts} />
       </>

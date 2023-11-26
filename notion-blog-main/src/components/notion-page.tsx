@@ -31,7 +31,7 @@ export default function NotionPage({
       showTableOfContents
       disableHeader
       pageHeader={
-        <div className="mb-4">
+        <div className="w-100 mb-4">
           <CategoryList categories={post.categories} />
         </div>
       }
