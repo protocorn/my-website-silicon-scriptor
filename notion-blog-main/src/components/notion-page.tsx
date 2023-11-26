@@ -32,7 +32,7 @@ export default function NotionPage({
       disableHeader
       pageHeader={
         <div className="w-100 mb-4">
-          <CategoryList categories={post.categories} />
+          
         </div>
       }
       mapImageUrl={(url, block) => mapImageUrl(url, block) || ''}

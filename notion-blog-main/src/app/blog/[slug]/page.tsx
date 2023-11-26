@@ -50,7 +50,7 @@ export default async function PostPage({
         data-revalidated-at={new Date().getTime()}
         className="mt-4 flex flex-col items-center md:mt-20"
       >
-        <div className="relative aspect-[3/2] w-[90vw] max-w-[900px]">
+        <div className="relative aspect-[3/2] w-[90vw] max-w-[600px]">
         <Image
             src={post.cover}
             alt="cover"
