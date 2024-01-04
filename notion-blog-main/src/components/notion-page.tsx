@@ -32,7 +32,7 @@ export default function NotionPage({
       disableHeader
       pageHeader={
         <div className="w-100 mb-4">
-          
+          <h3>Last edited at {post.date}</h3>
         </div>
       }
       mapImageUrl={(url, block) => mapImageUrl(url, block) || ''}
