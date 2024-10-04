@@ -46,9 +46,6 @@ export default async function PostPage({
 
   return (
     <>
-      <Head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1984752247872585" crossOrigin="anonymous"></script>
-      </Head>
       <article
         data-revalidated-at={new Date().getTime()}
         className="mt-4 flex flex-col items-center md:mt-20"
