@@ -64,15 +64,6 @@ export default async function PostPage({
           />
         </div>
         <NotionPage post={post} recordMap={recordMap} />
-        <ins className="adsbygoogle"
-            style={{ display: "block" }}
-            data-ad-client="ca-pub-1984752247872585"
-            data-ad-slot="YOUR_AD_SLOT"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
       </article>
       <RelatedPosts posts={relatedPosts} />
     </>
