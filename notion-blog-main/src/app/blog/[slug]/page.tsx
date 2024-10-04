@@ -7,6 +7,7 @@ import RelatedPosts from '@/components/posts/related-posts';
 import { getRecordMap } from '@/libs/notion';
 import { getAllPostsFromNotion } from '@/services/posts';
 import { Post } from '@/types/post';
+import GoogleAdsense from '@/components/GoogleAdsense';
 
 export default async function PostPage({
   params: { slug },
@@ -46,9 +47,7 @@ export default async function PostPage({
 
   return (
     <>
-      <Head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1984752247872585" crossOrigin="anonymous"></script>
-      </Head>
+      <GoogleAdsense />
       <article
         data-revalidated-at={new Date().getTime()}
         className="mt-4 flex flex-col items-center md:mt-20"
