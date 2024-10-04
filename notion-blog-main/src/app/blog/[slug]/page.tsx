@@ -47,7 +47,7 @@ export default async function PostPage({
   return (
     <>
       <head>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1984752247872585" crossorigin="anonymous"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1984752247872585" crossOrigin="anonymous"></script>
       </head>
       <article
         data-revalidated-at={new Date().getTime()}
