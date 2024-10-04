@@ -22,6 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
+      <head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1984752247872585" crossOrigin="anonymous"></script>
+      </head>
       <body className="text-primary bg-primary relative mx-auto mb-20 flex w-full max-w-screen-xl flex-col px-[10vw] md:px-[5vw]">
         <Provider>
           <Header />

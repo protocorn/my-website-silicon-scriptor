@@ -47,7 +47,6 @@ export default async function PostPage({
 
   return (
     <>
-      <GoogleAdsense />
       <article
         data-revalidated-at={new Date().getTime()}
         className="mt-4 flex flex-col items-center md:mt-20"
