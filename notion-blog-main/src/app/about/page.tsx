@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 export default function AboutPage() {
   return(
+    <>
     <div className="lg:flex h-flex mt-20">
       {/* Left Division */}
       <div className="lg:w-30 w-30 p-8 lg:bg-gray-200 lg:dark:bg-gray-800 rounded-2xl">
@@ -34,7 +35,7 @@ export default function AboutPage() {
       </div>
       <div className="ml-4">
       <p className="text-gray-500 text-left">Phone</p>
-        <h3 className="text-lg">+91 9619982412</h3>
+        <h3 className="text-lg">+1 (240)610-1453</h3>
       </div>
     </div>
   </div>
@@ -51,7 +52,7 @@ export default function AboutPage() {
       </div>
       <div className="ml-4">
       <p className="text-gray-500 text-left">Location</p>
-        <h3 className="text-lg">Thane, India</h3>
+        <h3 className="text-lg">College Park, MD</h3>
       </div>
     </div>
   </div>
@@ -108,10 +109,10 @@ export default function AboutPage() {
           <h2 className="text-2xl font-bold mb-4">About Me</h2>
           <hr className="border-t-2 border-gray-300 w-16 mb-4" />
           <p>
-          Hello! I&apos;m Sahil Chordia, a final-year computer engineering student at A.P Shah Institute of Technology. Currently immersed in the world of technology, my academic journey has been a fascinating exploration of the digital landscape.
+          Hey there! I’m a Data Science graduate student at the University of Maryland, College Park, with a passion for artificial intelligence and a knack for turning data into stories. My adventures in machine learning and natural language processing have led me to explore the quirks of ML and DL models through my research on sentiment analysis.
 <br></br>
 <br></br>
-My passion for technology goes beyond the classroom, as I find immense joy in staying updated with the latest advancements. Always eager to learn and embrace emerging technologies, I consider myself a perpetual student in the ever-evolving tech realm.
+When I’m not diving into data, I love tinkering with emerging technologies like Blockchain and AR/VR. Let’s connect and chat about the latest AI trends or brainstorm some innovative ideas—because who says tech can’t be fun?
 <br></br>
 <br></br>
 Blogging has become my medium to share this enthusiasm and knowledge with others. Through my articles, I aim to keep fellow tech enthusiasts informed and inspired about the dynamic world of technology.
@@ -162,5 +163,6 @@ Blogging has become my medium to share this enthusiasm and knowledge with others
         </div>
       </div>
     </div>
+    </>
   )
 }
