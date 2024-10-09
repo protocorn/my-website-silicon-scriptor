@@ -31,7 +31,7 @@ export default function HomePage() {
   <div className="lg:w-30 w-full p-10">
     <img
       className="w-full h-auto lg:w-auto lg:h-full mx-auto lg:mx-0"
-      src="/idea.png"
+      src="/logo.png"
       alt="Placeholder"
     />
   </div>
